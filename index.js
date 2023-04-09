@@ -1,4 +1,4 @@
-const   events = {
+export const   events = {
     MOUSEMOVE: 'mousemove',
     MOUSEOVER: 'mouseover',
     MOUSEOUT: 'mouseout',
@@ -13,7 +13,7 @@ const   events = {
     BEFORE_UNLOAD: 'beforeunload',
 }
 
-const   keyboardKeys = {
+export const   keyboardKeys = {
     BACKSPACE: 8,
     TAB: 9,
     ENTER: 13,
